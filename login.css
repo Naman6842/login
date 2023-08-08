@@ -1,0 +1,72 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url(./Images/HD-wallpaper-valley-of-the-end-naruto-naruto-nature-naruto-shippuden.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: grey;
+}
+form{
+    width: 30%;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 5px;
+
+
+}
+label,input,button,a{
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+form h1{
+    text-align: center;
+    font-size: 60px;
+}
+input{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    color: gray;
+    background-color: black;
+    
+}
+button{
+    min-width:30%;
+    height: 30px;
+    color: gray;
+    background-color: black;
+    border-radius: 5px;
+}
+#p{
+    display: flex;
+    justify-content: space-evenly;
+}
+#b{
+    background-color: aqua;
+}
+a{
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+#user::placeholder{
+    color:aqua;
+}
+#pass::placeholder{
+    color: aqua;
+}
+    
+
+
+    
